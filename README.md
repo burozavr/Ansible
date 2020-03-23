@@ -62,5 +62,5 @@ ansible-playbook  -i inventory/hosts playbook/nginx_install.yml
 
 ansible-playbook  -i inventory/hosts playbook/nginx_conf.yml  --syntax-check #проверить синтаксис
 
-curl http://192.168.11.151:8080
+curl http://192.168.11.150:8080
 ```
